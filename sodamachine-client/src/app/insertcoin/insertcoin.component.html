@@ -1,0 +1,14 @@
+<p>
+    <select (change)="selectInsertChangeHandler($event)">
+        <option value="null"></option>
+        <option value="25">Quarter</option>
+       </select>
+  <button class="btn btn-success" (click)="insertCoin()">Insert Coin</button>
+   <br/>
+   <br/>
+   <select (change)="selectGetCoinChangeHandler($event)">
+      <option value="null"></option>
+    <option value="25">Quarter</option>
+   </select>
+  <button class="btn btn-success" (click)="getCoin()">Get Coin</button>
+</p>
