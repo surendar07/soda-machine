@@ -2,7 +2,7 @@
 
 
 
-To install the soda machine application, run the following commands:
+To install the soda machine application and to run the applications, please follow below steps:
 
 git clone https://github.com/surendar07/soda-machine.git
 
